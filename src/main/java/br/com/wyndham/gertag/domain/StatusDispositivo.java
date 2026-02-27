@@ -1,4 +1,4 @@
-package br.com.wyndham.gertag.domain.dispositivo;
+package br.com.wyndham.gertag.domain;
 
 public enum StatusDispositivo {
 

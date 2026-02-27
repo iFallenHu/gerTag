@@ -1,4 +1,4 @@
-package br.com.wyndham.gertag.domain.dispositivo;
+package br.com.wyndham.gertag.domain;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.UUID;
