@@ -10,6 +10,7 @@ import java.util.UUID;
 @Table(name = "dispositivos")
 @Getter
 @Setter
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
@@ -35,6 +36,9 @@ public class Dispositivo {
 
     @Column(unique = true)
     private String codigoTag;
+
+    @Column(nullable = false, unique = true)
+    private Long patrimonio;
 
 
 
